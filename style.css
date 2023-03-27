@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex:1;
+    border: 10px solid yellow;
+    max-width: 960px;
+    max-height:960px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.square{
+    background-color: red;
+    border: 1px solid black;
+    flex-grow:1;
+    box-sizing: border-box;
+    transition: background-color 1s;
+}
+
+.hover{
+    background-color: green;
+}
