@@ -10,9 +10,20 @@
 </head>
 
 <body>
-    <button class="but">How many squares per side?</button>
-    <div class="container">
-        
+    <div class="layout">
+        <div class="options">
+            <h1>Etch-a-Sketch</h1>
+
+            <div class="colour-option">
+                <label for="col">Color</label>
+                <input type="color" id="col" name="col">
+            </div>
+            <div class="square-option">
+                <label for="squares">Squares: <span id="value"></span></label>
+                <input id="squares" type="range" name="sqaures" min="10" max="100" value="10">
+            </div>
+        </div>
+        <div class="container"></div>
     </div>
 </body>
 <script src="script.js"></script>
