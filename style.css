@@ -1,21 +1,28 @@
 .container{
     display: flex;
-    flex:1;
+    flex:0;
     border: 10px solid yellow;
+    min-width: 960px;
+    min-height: 960px;
     max-width: 960px;
-    max-height:960px;
+    max-height: 960px;
     flex-wrap: wrap;
     margin: auto;
+    /* box-sizing: border-box; */
 }
 
 .square{
     background-color: red;
     border: 1px solid black;
-    flex-grow:1;
+    flex:1 0 auto;
     box-sizing: border-box;
-    transition: background-color 1s;
+    transition: background-color .8s;
 }
 
 .hover{
     background-color: green;
+}
+
+.but{
+    margin-bottom:50px;
 }
